@@ -89,3 +89,5 @@ Acknowledgments
 OpenWeatherMap API documentation - Used as a reference for working with the weatherstack API
 Express.js documentation - Used as a reference for working with Express.js
 handlebars documentation - Used as a reference for working
+
+Authors Britney Habal Hubilla Third year IT students from Sorsogon State University
