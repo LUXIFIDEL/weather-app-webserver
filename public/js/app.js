@@ -8,17 +8,17 @@ const messageTwo = document.querySelector('#message-2')
 messageOne.textContent = '' 
 
 
-/* Preventing the default action of the browser. */
+/* Stopping the web browser from performing the default action that is associated with a particular event or user interaction.. */
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
     const location = search.value
-/* Displaying the loading message on the browser. */
+/* Showing a message indicating that the page or content is currently loading on the web browser. */
 
     messageOne.textContent = 'Loading...'
     messageTwo .textContent = ''
 
-  /* The above code is fetching the data from the server and displaying it on the browser. */
+  /* The following code retrieves data from a server and displays it in the web browse */
     fetch('http://localhost:3000/weather?address=' + location).then((response) => {
     response.json().then((data) => {
         if (data.error) {
